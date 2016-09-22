@@ -87,8 +87,43 @@
       </nav>
       <h2>Сливочное мороженное</h2>
       <form class="form-filter" action="https://echo.htmlacademy.ru" method="post">
-        
+        <div class="sorting-inner">
+          <select class="sorting" name="sort">
+            <option class="sorting__item" value="popularity">по популярности</option>
+            <option class="sorting__item" value="popularity">сначала недорогие
+            </option>
+            <option class="sorting__item" value="popularity">сначала дорогие
+            </option>
+            <option class="sorting__item" value="popularity">по жирности
+            </option>
+          </select>
+        </div>
+        <div class="range-controls"></div>
+        <div class="fat">.
+          <input type="radio" id="item-1" name="fat" value="0">
+            <label for="item-1">0%</label>
+            <input type="radio" id="item-2" name="fat" value="up to 10" checked>
+            <label for="item-2">до 10%</label>
+            <input type="radio" id="item-3" name="fat" value="up to 30">
+            <label for="item-3">до 30%</label>
+            <input type="radio" id="item-4" name="fat" value="more then 30">
+            <label for="item-4">выше 30%</label>
+        </div>
+        <div class="fillers">
+          <input type="checkbox" id="item-5" name="chokko" checked>
+          <label for="item-5">шоколадные</label>
+          <input type="checkbox" id="item-6" name="sugar" checked>
+          <label for="item-6">сахарные присыпки</label>
+          <input type="checkbox" id="item-7" name="fruit">
+          <label for="item-7">фрукты</label>
+          <input type="checkbox" id="item-8" name="syrup">
+          <label for="item-8">сиропы</label>
+          <input type="checkbox" id="item-9" name="jam">
+          <label for="item-9">джемы</label>
+        </div>
+        <input class="filter-btn" type="submit" value="Применить">
       </form>
+      
     </main>
   </body>     
 </html>
