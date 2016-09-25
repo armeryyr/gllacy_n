@@ -8,7 +8,7 @@
     <header class="main-header">
       <div class="container">
         <div class="logo">
-          <a class="logo">
+          <a class="logo" href="index.html">
             <img src="img/logo.png" width="154" height="64" alt="logo">
           </a>
         </div>
@@ -89,12 +89,12 @@
       <form class="form-filter" action="https://echo.htmlacademy.ru" method="post">
         <div class="sorting-inner">
           <select class="sorting" name="sort">
-            <option class="sorting__item" value="popularity">по популярности</option>
-            <option class="sorting__item" value="popularity">сначала недорогие
+            <option class="sorting-item" value="popularity">по популярности</option>
+            <option class="sorting-item" value="popularity">сначала недорогие
             </option>
-            <option class="sorting__item" value="popularity">сначала дорогие
+            <option class="sorting-item" value="popularity">сначала дорогие
             </option>
-            <option class="sorting__item" value="popularity">по жирности
+            <option class="sorting-item" value="popularity">по жирности
             </option>
           </select>
         </div>
@@ -123,7 +123,115 @@
         </div>
         <input class="filter-btn" type="submit" value="Применить">
       </form>
-      
+      <section class="items">
+        <article class="item">
+          <img src="img/item-1.jpg" width="200" height="200" alt="">
+          <p><strong>310 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-2.jpg" width="200" height="200" alt="">
+          <p><strong>380 &#8381;</strong>/кг</p>
+          <a href="#">Сливочно-кофейное с кусочкками шоколада</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item item-activ">
+          <img src="img/item-3.jpg" width="200" height="200" alt="">
+          <p><strong>355 &#8381;</strong>/кг</p>
+          <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-4.jpg" width="200" height="200" alt="">
+          <p><strong>415 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное крем-брюле с карамельной подливкой</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-5.jpg" width="200" height="200" alt="">
+          <p><strong>325 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное с брусничным джемом</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-6.jpg" width="200" height="200" alt="">
+          <p><strong>410 &#8381;</strong>/кг</p>
+          <a href="#">Сливочно-черничное с цельными ягодами черники</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-7.jpg" width="200" height="200" alt="">
+          <p><strong>375 &#8381;</strong>/кг</p>
+          <a href="#">Сливочно-лимонное с карамельной присыпкой</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-8.jpg" width="200" height="200" alt="">
+          <p><strong>320 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное с шоколадной стружкой</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-9.jpg" width="200" height="200" alt="">
+          <p><strong>440 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное-ванильное с кусочками шоколада</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-10.jpg" width="200" height="200" alt="">
+          <p><strong>435 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное с ментоловым сиропом</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-11.jpg" width="200" height="200" alt="">
+          <p><strong>355 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное с кусочками черного шоколада</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+        <article class="item">
+          <img src="img/item-12.jpg" width="200" height="200" alt="">
+          <p><strong>420 &#8381;</strong>/кг</p>
+          <a href="#">Сливочное с мятным сиропом</a>
+          <a href="" class="btn btn-item">Быстрый просмотр</a>
+        </article>
+      </section>
+      <div class="paginator">
+        <a class="prev disabled">&lt;</a>
+        <a class="current">1</a>
+        <a class="current" href="#1">2</a>
+        <a class="current" href="#1">3</a>
+        <a class="current" href="#1">4</a>
+        <a href="#5">5</a>
+        <a class="next" href="#next">&gt;</a>
+      </div>
     </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-social">
+          <a class="social-btn social-btn-twit" href="#">Твиттер</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        </div>
+        <div class="production">
+          <a href="#">Для поставщиков</a><br>
+          <a href="#">О производстве</a>
+        </div>
+        <div class="docs">
+          <a href="#">Наши документы</a><br>
+          <a href="#">Экологические стандарты</a>
+        </div>
+        <div class="footer-copyright">
+          <a href="https://htmlacademy.ru">
+            <img src="img/logo-academy.png" width="108" height="38" alt="">
+          </a>
+          <p>Сделано в
+            <a href="https://htmlacademy.ru">HTML Academy</a> &copy; 2016
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>     
 </html>
